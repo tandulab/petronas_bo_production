@@ -1,0 +1,1 @@
+import{at as a,af as s}from"./usetoast.esm19454.js";class n{static async deleteAttachment(e){return(await a(`/attachments/${e}`)).data}}const m=s({id:"attachment",state:()=>({attachment:{}}),getters:{},actions:{async deleteAttachment(t){await n.deleteAttachment(t)}}});export{m as u};
