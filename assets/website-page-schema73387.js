@@ -1,0 +1,1 @@
+import{af as t,u as a}from"./usetoast.esm73387.js";import{W as r}from"./website-page-service73387.js";const h=t({id:"websitePageSchema",state:()=>({schema:null,userId:null}),actions:{async load(){var s;const e=((s=a().currentUser)==null?void 0:s.id)??null;return(!this.schema||this.userId!==e)&&(this.schema=await r.fetchSchema(),this.userId=e),this.schema}}});export{h as u};
